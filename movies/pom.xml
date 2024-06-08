@@ -43,9 +43,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>me.paul.schwarz</groupId>
+			<groupId>me.paulschwarz</groupId>
 			<artifactId>spring-dotenv</artifactId>
-			<version>2.5.4</version>
+			<version>4.0.0</version>
 		</dependency>
 
 	</dependencies>

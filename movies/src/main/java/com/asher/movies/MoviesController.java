@@ -14,8 +14,13 @@ import java.util.List;
 @RequestMapping("/api/v1/movies")
 public class MoviesController {
 
-    @Autowired
+//    @Autowired
+//    private MovieService movieService;
+
     private MovieService movieService;
+    MoviesController(MovieService movieService) {
+        this.movieService = movieService;
+    }
 
     @GetMapping()
     public ResponseEntity<List<Movie>> getAllMovies() {

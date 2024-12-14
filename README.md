@@ -1,6 +1,6 @@
-# A full stack movie review application using SpringBoot, React and MongoDB.
+# Movie Review Application
 
-Notes I created while working on this follow along session from [Free Code Camp](https://www.youtube.com/watch?v=5PdEmeopJVQ). 
+These are notes I created while working on this:
 
 ## Dependencies
 - Lombok
